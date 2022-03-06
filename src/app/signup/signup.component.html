@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="conatiner6">
+    <h2   class="bg-dark text-white"> Sign up</h2>
+<form #ref="ngForm" (ngSubmit)="sendData(ref)">
+  <div><br>
+    <input type="text"   class="bg-dark text-white"name="Name" id="n" placeholder="name" ngmodel>
+  </div>
+<br>
+<div>
+  <input type="text" class="bg-dark text-white" name="Number" id="nu" placeholder="Number" ngmodel>
+</div><br>
+<div>
+  <input type="text" class="bg-dark text-white" name="email" id="em" placeholder="Email" ngmodel>
+</div><br>
+<div>
+  <input type="password"  class="bg-dark text-white" name="passwword" id="pw" placeholder="password" ngmodel>
+</div>
+<br>
+<div>
+  <input type="password"  class="bg-dark text-white" name="passwword" id="pw" placeholder="reenter password" ngmodel>
+</div><br>
+<button class="sub2">Submit</button>
+<br>
+<h2><a href=""><i class="fa-brands fa-facebook-square"></i></a>
+<a href=""><i class="fa-brands fa-google-plus"></i></a>
+<a href=""><i class="fa-brands fa-twitter-square"></i></a></h2>
+<em>if you have account</em> <a routerLink="/login"><button  class="bg-primary text-white">login</button></a>
+</form>
+</div>
+<br>
+</body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    padding: 20px;
+    margin: 30px;
+}
+.order
+{
+background-color: black;
+text-align: center;
+}
+span
+{
+    color: red;
+}

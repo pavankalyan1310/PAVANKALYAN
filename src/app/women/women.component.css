@@ -1,0 +1,33 @@
+body{
+    padding:20px;
+    margin: 20px;
+}
+h2
+{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: red;
+    font-size: large;
+}
+h5
+{
+    background-color: yellow;
+    border-radius: 10px;
+    text-align: center;
+}
+.col-md-4
+{
+    float: left;
+    background-color: black;
+    padding-top: 30px;
+}
+.copy
+{
+    padding-top:18px;
+}
+h3
+{
+    padding-top: 20px;
+}
